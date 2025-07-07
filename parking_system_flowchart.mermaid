@@ -1,0 +1,36 @@
+flowchart TD
+    A[Vehicle Storage Information CSV] --> B[(Information Analysis with Pandas)]
+    
+    B --> C[Algorithm 1: Fixed Rate Structure]
+    B --> D[Algorithm 2: Supply-Demand Pricing]
+    B --> E[Algorithm 3: Market-Based Pricing]
+    
+    C --> F[Rate Calculations]
+    D --> F
+    E --> F
+    
+    F --> G[Smart Navigation Framework]
+    F --> H[Live Data Broadcasting Channel]
+    
+    G --> I[(Strategic Insights)]
+    H --> J[(JSON Data Stream)]
+    
+    I --> K[(Dashboard Analytics with Bokeh)]
+    J --> K
+    
+    %% Styling
+    classDef inputData fill:#ff9999,stroke:#333,stroke-width:2px
+    classDef processing fill:#66b3ff,stroke:#333,stroke-width:2px
+    classDef models fill:#99ff99,stroke:#333,stroke-width:2px
+    classDef output fill:#ffcc99,stroke:#333,stroke-width:2px
+    classDef systems fill:#ff99ff,stroke:#333,stroke-width:2px
+    classDef storage fill:#99ffcc,stroke:#333,stroke-width:2px
+    classDef visualization fill:#ccccff,stroke:#333,stroke-width:2px
+    
+    class A inputData
+    class B processing
+    class C,D,E models
+    class F output
+    class G,H systems
+    class I,J storage
+    class K visualization
