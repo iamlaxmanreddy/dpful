@@ -1,0 +1,55 @@
+flowchart TD
+    subgraph DataCollection["Information Acquisition"]
+        A[(Vehicle Space Records CSV/API)]
+    end
+    
+    A --> B[Information Refinement - Sanitization & Restructuring]
+    
+    subgraph ModelingFramework["Rate Calculation Framework"]
+        C[Past Usage Pattern Evaluation]
+        D[Attribute Development]
+        
+        E[Fixed Rate Algorithm]
+        F[Supply-Demand Algorithm] 
+        G[Market Competition Algorithm]
+        
+        C -.-> F
+        D -.-> F
+        B --> E
+        B --> F
+        B --> G
+        B --> C
+    end
+    
+    E --> H[Enhanced Cost Matrix]
+    F --> H
+    G --> H
+    
+    subgraph DeploymentLayer["Distribution & Implementation"]
+        I[(Visual Analytics Portal)]
+        J[Live Data Broadcasting Service]
+        K[Adaptive Navigation System]
+        
+        H --> I
+        H --> J
+        H --> K
+    end
+    
+    %% Styling with vibrant colors
+    classDef dataSource fill:#FFB6C1,stroke:#8B008B,stroke-width:3px
+    classDef preprocessing fill:#87CEEB,stroke:#4682B4,stroke-width:3px
+    classDef analytics fill:#FFA07A,stroke:#FF4500,stroke-width:3px
+    classDef models fill:#98FB98,stroke:#32CD32,stroke-width:3px
+    classDef output fill:#F0E68C,stroke:#DAA520,stroke-width:3px
+    classDef services fill:#DDA0DD,stroke:#9370DB,stroke-width:3px
+    classDef subgraphStyle fill:#F5F5F5,stroke:#333,stroke-width:2px
+    
+    class A dataSource
+    class B preprocessing
+    class C,D analytics
+    class E,F,G models
+    class H output
+    class I,J,K services
+    
+    %% Subgraph styling
+    class DataCollection,ModelingFramework,DeploymentLayer subgraphStyle
