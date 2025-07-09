@@ -76,23 +76,6 @@ flowchart TD
     class K visualization
 ```
 
-### Component Descriptions - Diagram 1
-
-| Original Term | Alternative Term | Color Code | Function |
-|---------------|------------------|------------|----------|
-| Parking Data CSV | Vehicle Storage Information CSV | Pink (#ff9999) | Raw data input |
-| Data Processing (Pandas) | Information Analysis with Pandas | Blue (#66b3ff) | Data transformation |
-| Linear Pricing | Fixed Rate Structure | Green (#99ff99) | Static pricing model |
-| Demand-Based Pricing | Supply-Demand Pricing | Green (#99ff99) | Dynamic pricing model |
-| Competitive Pricing | Market-Based Pricing | Green (#99ff99) | Competition-aware pricing |
-| Price Outputs | Rate Calculations | Orange (#ffcc99) | Consolidated pricing results |
-| Intelligent Rerouting System | Smart Navigation Framework | Purple (#ff99ff) | Route optimization |
-| Real-Time Streaming | Live Data Broadcasting Channel | Purple (#ff99ff) | Data streaming service |
-| Business Recommendations | Strategic Insights | Light Green (#99ffcc) | Business intelligence |
-| JSONL Output | JSON Data Stream | Light Green (#99ffcc) | Structured data output |
-| Visualization (Bokeh) | Dashboard Analytics with Bokeh | Light Blue (#ccccff) | Data visualization |
-
----
 
 ## Diagram 2: Vehicle Management System Architecture
 
@@ -154,27 +137,6 @@ flowchart TD
     class DataCollection,ModelingFramework,DeploymentLayer subgraphStyle
 ```
 
-### Component Descriptions - Diagram 2
-
-| Original Term | Alternative Term | Color Code | Function |
-|---------------|------------------|------------|----------|
-| Data Ingestion | Information Acquisition | Light Gray (#F5F5F5) | Section header |
-| Parking Lot Data (CSV/API) | Vehicle Space Records (CSV/API) | Light Pink (#FFB6C1) | Raw data source |
-| Data Preprocessing | Information Refinement | Sky Blue (#87CEEB) | Data cleaning & transformation |
-| Cleaning, Transformation | Sanitization & Restructuring | Sky Blue (#87CEEB) | Data preparation steps |
-| Pricing Models | Rate Calculation Framework | Light Gray (#F5F5F5) | Section header |
-| Historical Pattern Analysis | Past Usage Pattern Evaluation | Light Salmon (#FFA07A) | Historical data analysis |
-| Feature Engineering | Attribute Development | Light Salmon (#FFA07A) | Feature creation |
-| Linear Pricing Model | Fixed Rate Algorithm | Light Green (#98FB98) | Static pricing approach |
-| Demand-Based Model | Supply-Demand Algorithm | Light Green (#98FB98) | Dynamic pricing approach |
-| Competitive Market Model | Market Competition Algorithm | Light Green (#98FB98) | Market-aware pricing |
-| Output & Deployment | Distribution & Implementation | Light Gray (#F5F5F5) | Section header |
-| Optimized Price Table | Enhanced Cost Matrix | Khaki (#F0E68C) | Final pricing output |
-| Interactive Dashboard | Visual Analytics Portal | Plum (#DDA0DD) | User interface |
-| Real-Time Streaming API | Live Data Broadcasting Service | Plum (#DDA0DD) | API service |
-| Dynamic Rerouting Engine | Adaptive Navigation System | Plum (#DDA0DD) | Navigation service |
-
----
 
 ## System Architecture Overview
 
